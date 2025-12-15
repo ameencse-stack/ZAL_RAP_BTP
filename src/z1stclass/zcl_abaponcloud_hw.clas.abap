@@ -1,0 +1,20 @@
+CLASS zcl_abaponcloud_hw DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  interFACES if_oo_adt_classrun.  "Added
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_abaponcloud_hw IMPLEMENTATION.
+  METHOD if_oo_adt_classrun~main.
+    out->write( 'Hello World from ABAP on Cloud' ).
+    out->write( 'ABAP on Cloud Git Demo' ).
+  ENDMETHOD.
+
+ENDCLASS.
